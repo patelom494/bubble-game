@@ -26,6 +26,7 @@ const score = () => {
             scnum += 10
             scoreval.innerHTML = scnum
             creatBubble()
+            hitval.innerHTML = Math.floor(Math.random() * 10)
         }
     })
 }
